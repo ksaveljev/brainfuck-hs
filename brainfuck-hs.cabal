@@ -19,6 +19,8 @@ executable brainfuck-hs
   main-is:             brainfuck.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.6 && <4.7
+  build-depends:       base >=4.6 && <4.7,
+                       attoparsec >= 0.12.1,
+                       bytestring
   -- hs-source-dirs:      
   default-language:    Haskell2010
